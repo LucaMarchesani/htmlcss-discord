@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container.top{
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+.container.top>img{
+    width: 7rem;
+
+}
+
+.container.links{
+    list-style: none;
+    justify-content: space-around;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.button{
+    padding: .5rem 1rem;
+    border-style: none;
+    border-radius: 2rem;
+}
+
+.login{
+    background-color: white;
+    color: black;
+}
+
+.head-text{
+    padding: 5rem 0 7.5rem;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.head-text>p{
+    padding: 2.5rem 0;
+    font-size: .9rem;
+}
+
+.button.mac-first{
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.button.browser{
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #23272a;
+    color: white;
+}
+
+.container.middle{
+    padding: 7.5rem 0;
+}
+
+.bg-grey{
+    padding: 2rem 0;
+    background-color: #f6f6f6;
+}
+
+.img>img{
+    width: 35rem;
+}
+
+.text{
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+
+h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+
+    line-height: 3rem;
+    margin-top: 2rem;
+    font-size: 2.6rem;
+}
+
+p{
+    padding-top: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+
+    line-height: 1.5rem;
+}
+
+.main-end{
+    margin: 0 auto 2rem;
+    width: 75%;
+    height: 800px;
+    text-align: center;
+}
+
+.text-with-bg{
+
+}
+
+.button.mac-second{
+    margin-top: 2rem;
+    background-color: #8ea1e1;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+footer{
+    background-color: rgb(27, 26, 26);
+    padding: 1rem 0;
+
+}
+
+aside{
+    width: 30%;
+    height: 400px;
+    background-color: chartreuse;
+}
+
+.list{
+    border: .1rem dashed black;
+    width: 20%;
+    height: 400px;
+    background-color: pink;
+}
+
+.container.footer2{
+    border: .2rem solid gray;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: darkcyan;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
