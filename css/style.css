@@ -74,7 +74,7 @@ h1{
     font-weight: bold;
     font-size: 1rem;
     background-color: white;
-    color: black;
+    color: #35393c;
 }
 
 .button.browser{
@@ -133,7 +133,7 @@ p{
 
 
 footer{
-    background-color: rgb(27, 26, 26);
+    background-color: #23272a;
     padding: 1rem 0;
 
 }
@@ -154,8 +154,13 @@ aside>img{
     width: 1.5rem;
 }
 
+.social-media>img{
+    padding-top: 1rem;
+    width: 10rem;
+}
+
 .entity{
-    font-size: .3rem;
+    font-size: 1rem;
 }
 
 .list{
@@ -168,6 +173,13 @@ aside>img{
 h3,
 h4{
     color: #5c6fab;
+}
+
+.divider{
+    margin: 1.5rem auto;
+    width: 75%;
+    height: .1rem;
+    background-color: #8ea1e1;
 }
 
 .container.footer2{
